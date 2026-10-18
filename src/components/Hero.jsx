@@ -1,6 +1,15 @@
 import { site } from "../data/site";
+import { useEffect, useRef } from "react";
 
 export default function Hero() {
+ const videoRef = useRef(null)
+  useEffect(()=>{
+    const v = videoRef.current;
+    if(!v) return;
+    v.muted = true;
+    v.play().catch(() => {});
+}, [])
+
   return (
     <section className="bg-gradient-to-b from-blush-100 to-blush-50">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-14 md:grid-cols-2 md:py-24">
@@ -40,10 +49,21 @@ export default function Hero() {
 
         <div className="mx-auto w-full max-w-sm">
           <div className="aspect-[3/4] overflow-hidden rounded-t-full rounded-b-2xl border border-rose-gold-light bg-blush-200 shadow-xl">
-            <img
+            {/* <img
               src="/gallery/silk-press.jpg"
               alt="Wavy silk press curls by Hair Is Tee"
               className="h-full w-full object-cover object-center"
+            /> */}
+            <video
+              ref={videoRef}
+              classname="h-full w-full object-cover object-center"
+              src="/videos/hero.mp4"
+              poster="/gallery/hero.jpg"
+              autoplay
+              muted
+              loop
+              playsInline
+              preload="auto"
             />
           </div>
         </div>
