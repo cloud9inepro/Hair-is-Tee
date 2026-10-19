@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-ink py-10 text-center text-blush-100">
       <div className="mx-auto max-w-6xl px-5">
         <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full border border-rose-gold-light text-2xl text-rose-gold-light">
-          T
+          <img src="/logo.png" alt="T"/>
         </div>
         <p className="mt-3 text-2xl tracking-wide text-rose-gold-light">
           {site.name}

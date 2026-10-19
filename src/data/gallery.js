@@ -7,7 +7,7 @@ export const gallery = [
   {
     src: "/gallery/kids-braids.jpg",
     alt: "Kids braids with curly ends",
-    category: "Braids",
+    category: "Corn Row",
   },
   {
     src: "/gallery/curls-1.jpg",
@@ -16,6 +16,11 @@ export const gallery = [
   },
   {
     src: "/gallery/braid-1.jpg",
+    alt: "Adult braids",
+    category: "Braids",
+  },
+  {
+    src: "/gallery/braid-7.jpg",
     alt: "Adult braids",
     category: "Braids",
   },
@@ -64,6 +69,16 @@ export const gallery = [
     src: "/gallery/wig-2.jpg",
     alt: "wig fix",
     category: "Wigs & Styling",
+  },
+  {
+    src: "/gallery/corn-1.jpg",
+    alt: "wig fix",
+    category: "Corn Row",
+  },
+  {
+    src: "/gallery/corn-2.jpg",
+    alt: "wig fix",
+    category: "Corn Row",
   },
   
   

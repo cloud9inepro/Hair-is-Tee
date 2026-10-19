@@ -15,7 +15,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
         <a href="#top" className="flex items-center gap-2">
           <span className="flex h-9 w-9 items-center justify-center rounded-full border border-rose-gold text-lg font-semibold text-rose-gold">
-            T
+            <img src="/logo.png" alt="T"/>
           </span>
           <span className="text-xl font-semibold tracking-wide text-rose-gold-dark">
             {site.name}
@@ -56,7 +56,7 @@ export default function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden"
+          className="md:hidden cursor-pointer"
           aria-label="Toggle menu"
         >
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
