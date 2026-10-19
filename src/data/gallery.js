@@ -66,6 +66,26 @@ export const gallery = [
     category: "Braids",
   },
   {
+    src: "/gallery/braid-8.jpg",
+    alt: "Adult braids",
+    category: "Braids",
+  },
+  {
+    src: "/gallery/braid-9.jpg",
+    alt: "Adult braids",
+    category: "Braids",
+  },
+  {
+    src: "/gallery/braid-10.jpg",
+    alt: "Adult braids",
+    category: "Braids",
+  },
+  {
+    src: "/gallery/braid-11.jpg",
+    alt: "Adult braids",
+    category: "Braids",
+  },
+  {
     src: "/gallery/wig-2.jpg",
     alt: "wig fix",
     category: "Wigs & Styling",
