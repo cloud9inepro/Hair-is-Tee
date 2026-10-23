@@ -139,6 +139,16 @@ export const gallery = [
     alt: "wig fix",
     category: "Kinky Twist",
   },
+  {
+    src: "/gallery/kinky-2.jpg",
+    alt: "wig fix",
+    category: "Kinky Twist",
+  },
+  {
+    src: "/gallery/kinky-3.jpg",
+    alt: "wig fix",
+    category: "Kinky Twist",
+  },
 
         // Braids
   {
